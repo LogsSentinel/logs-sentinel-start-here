@@ -1,7 +1,6 @@
-# logs-sentinel-start-here
 # LogsSentinel — AI Agents in Production (SecOps)
 
-I share practical guardrails for deploying AI agents in real environments.
+Practical guardrails for deploying **AI agents in real production environments** (for builders, SecOps, and SREs).
 
 ## What you’ll find here
 
@@ -9,17 +8,21 @@ I share practical guardrails for deploying AI agents in real environments.
 * **Operational security checklists**: verification loops, evals, CI gates
 * **Production mindset**: observability, rollback playbooks, incident readiness
 
-## Quick start (recommended controls)
+## Quick start: minimum controls for “agents that act”
 
-1. Scope tool access (least privilege, resource-level)
-2. Human-in-the-loop confirmations for destructive actions
-3. Tamper-evident audit trails + retention
-4. Independent evaluation (tests/evals) before “action”
-5. Rollback paths documented
+1. **Scope tool access** (least privilege, resource-level)
+2. **Human-in-the-loop approvals** for destructive actions
+3. **Tamper-evident audit trails** + retention
+4. **Independent verification** (tests/evals) before execution
+5. **Rollback playbooks** documented (reversible changes)
 
 ## Notes
 
 * No sensitive customer data, no PHI, no internal identifiers.
-* Content is educational and focused on secure operations.
+* Educational content focused on secure operations.
 
-Follow me on X: @logssentinel
+## Links
+
+* X: [https://x.com/logssentinel](https://x.com/logssentinel)
+* GitHub: [https://github.com/LogsSentinel](https://github.com/LogsSentinel)
+
